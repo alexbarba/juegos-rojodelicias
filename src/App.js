@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.png";
 import "./App.css";
 import Crossword from "@jaredreisinger/react-crossword";
+import Container2048 from "./2048/Container2048.js";
 
 const data = {
 	across: {
@@ -112,6 +113,7 @@ function App() {
 					focusBackground="#f00"
 					highlightBackground="#f99"
 				/>
+				<Container2048 />
 				<a
 					className="App-link"
 					href="http://rojodelicias.com"
